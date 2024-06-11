@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: violet;
+ 
+}
+
+.wrapper__logo {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-family: Roboto;
+}
+
+.wrapper {
+    margin-top: 70px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 400px;
+}
+
+form {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.form__input {
+    width: 415px;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    padding-left: 25px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.form__button {
+    width: 120px;
+    height: 100%;
+    background-color: violet;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.form__button:active {
+    background-color: violet;
+}
+
+.wrapper-users {
+    display: flex;
+    flex-direction: column;
+}
+
+.first_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mini_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    font-size: 24px;
+}
+
+.icon_delete {
+    width: 36px;
+}
+
+.btn_delete {
+    width: 43px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.8s;
+}
+
+.btn_delete:hover {
+    transition: all 0.8s;
+    background-color: rgb(193, 193, 193);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+#delete_list{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+h1>img{
+    width: 30px;
+    
+}
